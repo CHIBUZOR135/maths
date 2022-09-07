@@ -385,6 +385,8 @@ height: 600px;
 .jeep{
     margin-left:5px;
    margin-right: 10px;
+   border: 5px solid whitesmoke;
+   width: max-content;
 }
 .help{
     display: flex;
