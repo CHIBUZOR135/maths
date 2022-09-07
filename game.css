@@ -94,7 +94,6 @@ justify-content: space-between;
 }
 .aria{
 padding-top: 90px;
-padding-left: 70px;
 }
 .aria h4{
     font-weight: bolder;
@@ -123,7 +122,6 @@ justify-content: space-between;
 }
 .men{
     padding-top: 150px;
-    padding-right: 70px;
     }
 .men h4{
     font-weight: bolder;
@@ -152,7 +150,6 @@ justify-content: space-between;
 }
 .pine{
 padding-top: 90px;
-padding-left: 70px;
 }
 .pine h4{
     font-weight: bolder;
@@ -203,8 +200,8 @@ footer{
 .help{
     display: flex;
     flex-direction: row;
-    column-gap: 70px;
-    padding: 30px 30px;
+    column-gap: 30px;
+   
 }
 .hot h1{
     color: white;
@@ -281,7 +278,9 @@ padding-top: 10px;
     cursor: pointer;
 }
 @media screen and (max-width:480px) {
-
+body{
+    padding: 20px 30px;
+}
 .class{
    
     display: flex;
@@ -308,16 +307,16 @@ padding-top: 10px;
 .xxx{
   display: flex;  
   flex-direction: column;
-  justify-content: center;
+ align-items: center;
 padding-bottom: 390px;
-padding-left: 50px;
+
 }
 .xxx h1{
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bolder;
 }
 .xxx h6{
-font-weight: bold;
+
 font-size: 0.8rem;
 }
 .xxx button{
@@ -333,14 +332,16 @@ height: 600px;
 .van img{
     width: 100%;
 }
+.aria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .aria h4{
-    font-size: 2rem;
-    font-weight: bolder;
-  
+    font-size: 1rem; 
 }
 .aria p{
     font-size: 0.8rem;
-    font-weight: bold;
     padding-bottom: 60px;
   
 }
@@ -353,13 +354,16 @@ height: 600px;
 .man img{
     width: 100%;
 }
+.men{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .men h4{
-    font-size: 2rem;
-    font-weight: bolder; 
+    font-size: 1rem;
 }
 .men p{
     font-size: 0.8rem;
-    font-weight: bold;
     padding-bottom: 60px;
    
 }
@@ -372,26 +376,45 @@ height: 600px;
 .apple img{
     width: 100%;
 }
+.pine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .pine h4{
-    font-size: 2rem;
-    font-weight: bolder;   
+    font-size: 1rem;
+      
 }
 .pine p{
     font-size: 0.8rem;
-    font-weight: bold;
     padding-bottom: 60px;
     
 }
 .jeep{
-    margin-left:5px;
+    margin-left:50px;
    margin-right: 10px;
    border: 5px solid whitesmoke;
    width: max-content;
 }
+.jeep h4{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.jeep button{
+    height: 40px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: palevioletred;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: none;
+}
 .help{
     display: flex;
-    flex-direction: row;
-    column-gap: 30px; 
+    flex-direction: column;
+   padding: 0px 0px;
 }
 .dics{
     display: flex;
